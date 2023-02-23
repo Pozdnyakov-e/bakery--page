@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color:#ffe2b0;
+}
+header {
+	text-align: center;
+}
+img {
+	padding-bottom: 20px;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+li:not(:last-child) {
+ margin-right: 100px;
+}
+.secition-about {
+	height: 640px;
+	background-image: url(../img/bakery_photo.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 20px;
+}
+.secition-about_block {
+	width: 420px;
+	height: 190px;
+	background: linear-gradient(180deg, rgba(244,213,173,0.8)0%,rgba(234, 156, 65, 0.8) 100% );
+	position: relative;
+	top: 54%;
+	left: 50%;
+	padding-top: 15px;
+}
+.secition-about_border {
+	height: 160px;
+	width: 390px;
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 17px;
+	padding-left: 28px;
+
+}
+.secition-about_title {
+	font-size: 36px;
+	margin: 0;
+	margin-bottom: 9px;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.secition-about_text {
+	font-size: 12px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.section-description {
+	margin-bottom: 20px;
+}
+
+.section-description_icon-box {
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+.section-description_icon-box>img {
+	width: 290px;
+	height: 290px;
+	margin-right: 76px;
+	
+}
+
+.section-description_icon-box>img:last-child {
+	margin-right: 0px;
+}
+.section-description {
+margin-bottom: 20px;
+}
+.section-description_title {
+	font-size: 96px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+
+}
+.section-description_span {
+	color: #f15b40;
+}
+.section-description_text {
+	font-size: 18px;
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.section-map {
+	margin-bottom: 20px;
+}
+
+.section-map_title {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Philosopher', sans-serif;
+}
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+hr {
+	border: none;
+	border: 1px solid #999999;
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+footer {
+	height: 120px;
+}
+
